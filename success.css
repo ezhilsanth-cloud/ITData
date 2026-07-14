@@ -1,63 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Poppins',sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-body{
-    background:#eef3fb;
-    padding:30px;
+body {
+    background: #eef3fb;
+    padding: 30px;
 }
 
-.page-title{
-    text-align:center;
-    font-size:40px;
-    color:#0d47a1;
-    margin-bottom:30px;
+.page-title {
+    text-align: center;
+    font-size: 40px;
+    color: #0d47a1;
+    margin-bottom: 30px;
 }
 
 /* 2 Images Per Row */
-.student-container{
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:30px;
-    max-width:1400px;
-    margin:auto;
+.student-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 1400px;
+    margin: auto;
 }
 
 /* Card */
-.story-card{
-    background:#fff;
-    border-radius:15px;
-    overflow:hidden;
-    box-shadow:0 8px 20px rgba(0,0,0,.15);
-    transition:.3s;
+.story-card {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .15);
+    transition: .3s;
 }
 
-.story-card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 15px 30px rgba(0,0,0,.25);
+.story-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .25);
 }
 
 /* Large Image */
-.story-card img{
-    width:100%;
-    height:auto;
-    display:block;
+.story-card img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 /* Mobile */
-@media(max-width:768px){
+@media(max-width:768px) {
 
-.student-container{
-    grid-template-columns:1fr;
-}
+    .student-container {
+        grid-template-columns: 1fr;
+    }
 
-.page-title{
-    font-size:30px;
-}
+    .page-title {
+        font-size: 30px;
+    }
 
 }

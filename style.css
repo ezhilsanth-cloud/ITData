@@ -238,22 +238,29 @@ blockquote {
     line-height: 1.7;
 }
 
-.success-btn{
-    display:inline-block;
-    margin-top:20px;
-    padding:12px 28px;
-    background:#0d47a1;
-    color:#fff;
-    text-decoration:none;
-    border-radius:50px;
-    font-size:16px;
-    font-weight:600;
-    transition:0.3s ease;
+.btn-area {
+    text-align: center;
+    margin-top: 20px;
 }
 
-.success-btn:hover{
-    background:#1565c0;
-    transform:translateY(-3px);
+.success-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 24px;
+    background: linear-gradient(90deg, #0d47a1, #1565c0);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
+    transition: all .3s ease;
+}
+
+.success-btn:hover {
+    background: linear-gradient(90deg, #1565c0, #0d47a1);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, .25);
 }
 
 /* ===============================
@@ -279,19 +286,36 @@ button:hover {
    SKILLS
 ================================== */
 
+.skills-section {
+    margin: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #e5e5e5;
+}
+
+.skills-section h4 {
+    background: #0d47a1;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
 .skills-list {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px 18px;
-    padding: 18px;
+    gap: 10px;
+    padding: 0;
 }
 
 .skills-list li {
-    padding: 8px;
-    background: #f8fbff;
+    background: #f4f8ff;
+    padding: 8px 10px;
     border-radius: 6px;
     font-size: 14px;
+    border: 1px solid #dce6f7;
     transition: .3s;
 }
 
